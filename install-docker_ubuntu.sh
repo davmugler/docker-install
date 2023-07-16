@@ -13,7 +13,7 @@ echo "Done."
 # UPDATE & UPGRADE
 
 echo "Installing dependencies..."
-sudo apt-get install ca-certificates curl gnupg > /dev/null 2>&1
+sudo apt-get install -y ca-certificates curl gnupg > /dev/null 2>&1
 echo "Done."
 
 #ADD Docker Key
@@ -37,14 +37,14 @@ echo "Done."
 
 echo "Installing Docker..."
 sudo apt-get update > /dev/null 2>&1
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin > /dev/null 2>&1
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin > /dev/null 2>&1
 sudo systemctl enable docker> /dev/null 2>&1
 echo "Done."
 
 # INSTALL DOCKER-COMPOSE
 
 echo "Installing docker-compose..."
-sudo apt-get install docker-compose-plugin > /dev/null 2>&1
+sudo apt-get install -y docker-compose-plugin > /dev/null 2>&1
 echo "Done."
 
 #VERIFY INSTALL
