@@ -36,7 +36,7 @@ echo "Done."
 # INSTALL DOCKER
 
 echo "Installing Docker..."
-sudo apt-get update 2>&1
+sudo apt-get update > /dev/null 2>&1
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin > /dev/null 2>&1
 sudo systemctl enable docker> /dev/null 2>&1
 echo "Done."
