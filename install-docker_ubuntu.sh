@@ -6,7 +6,7 @@ echo "Done."
 
 #Remove any unofficale packages
 
-echo "Removing unoffical packages..."
+echo "Removing any unoffical packages..."
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done > /dev/null 2>&1
 echo "Done."
 
