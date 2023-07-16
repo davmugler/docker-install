@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Updating your System..."
+sudo apt-get update && sudo apt-get upgrade -y
+echo "Done."
+
 #Remove any unofficale packages
 
 echo "Removing unoffical packages..."
@@ -9,7 +13,7 @@ echo "Done."
 # UPDATE & UPGRADE
 
 echo "Installing dependencies..."
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get install ca-certificates curl gnupg > /dev/null 2>&1
+sudo apt-get install ca-certificates curl gnupg > /dev/null 2>&1
 echo "Done."
 
 #ADD Docker Key
@@ -31,7 +35,8 @@ echo "Done."
 
 # INSTALL DOCKER
 
-sudo apt-get update
+echo "Installing Docker..."
+sudo apt-get update 2>&1
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin > /dev/null 2>&1
 echo "Done."
 
