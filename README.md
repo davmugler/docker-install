@@ -52,4 +52,8 @@ Schritt 4: Führen Sie das Skript aus, indem Sie den folgenden Befehl eingeben:
 
 Das Skript installiert Docker und alle erforderlichen Abhängigkeiten auf Ihrem Ubuntu-System incl. dem Plugin docker-compose.
 
-### Bitte beachten Sie, dass das Ausführen von Skripten von Drittanbietern immer ein gewisses Risiko birgt. Stellen Sie sicher, dass Sie dem Quellcode des Skripts vertrauen, bevor Sie es ausführen. Es wird keine Haftung für Schäden oder Fehlfunktionen übernommmen.
+
+
+
+
+! Bitte beachten Sie, dass das Ausführen von Skripten von Drittanbietern immer ein gewisses Risiko birgt. Stellen Sie sicher, dass Sie dem Quellcode des Skripts vertrauen, bevor Sie es ausführen. Es wird keine Haftung für Schäden oder Fehlfunktionen übernommmen. !
