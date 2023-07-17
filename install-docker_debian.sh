@@ -1,15 +1,19 @@
 #!/bin/bash
 
+echo "Updating your System..."
+sudo apt-get update && sudo apt-get upgrade -y > /dev/null 2>&1
+echo "Done."
+
 #Remove any unoffical packages
 
-echo "Removing unoffical packages..."
+echo "Removing any unoffical packages..."
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done > /dev/null 2>&1
 echo "Done."
 
 # UPDATE & UPGRADE
 
 echo "Installing dependencies..."
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get install ca-certificates curl gnupg > /dev/null 2>&1
+sudo apt-get install -y ca-certificates curl gnupg > /dev/null 2>&1
 echo "Done."
 
 #ADD Docker Key
@@ -32,13 +36,13 @@ echo "Done."
 # INSTALL DOCKER
 
 echo "Installing docker..."
-sudo apt-get update && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin > /dev/null 2>&1
+sudo apt-get update && sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin > /dev/null 2>&1
 echo "Done."
 
 # INSTALL DOCKER-COMPOSE
 
 echo "Installing docker-compose..."
-sudo apt-get install docker-compose-plugin > /dev/null 2>&1
+sudo apt-get install -y docker-compose-plugin > /dev/null 2>&1
 echo "Done."
 
 #VERIFY INSTALL
