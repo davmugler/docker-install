@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "Updating your System..."
-sudo apt-get update && sudo apt-get upgrade -y > /dev/null 2>&1
+sudo apt-get update > /dev/null 2>&1
+sudo apt-get upgrade -y > /dev/null 2>&1
 echo "Done."
 
 #Remove any unofficale packages
