@@ -26,7 +26,7 @@ Schritt 4: Führen Sie das Skript aus, indem Sie den folgenden Befehl eingeben:
 
 Das Skript installiert Docker und alle erforderlichen Abhängigkeiten auf Ihrem Debian-basierten System incl. dem Plugin docker-compose.
 
-# 2. Skript: install-docker_ubuntu.sh
+## 2. Skript: install-docker_ubuntu.sh
 
 Dieses Skript ist speziell für Ubuntu-Systeme entwickelt und installiert Docker auf Ihrem Ubuntu-System. Hier ist eine Anleitung zur Ausführung des Skripts:
 
@@ -52,4 +52,4 @@ Schritt 4: Führen Sie das Skript aus, indem Sie den folgenden Befehl eingeben:
 
 Das Skript installiert Docker und alle erforderlichen Abhängigkeiten auf Ihrem Ubuntu-System incl. dem Plugin docker-compose.
 
-# Bitte beachten Sie, dass das Ausführen von Skripten von Drittanbietern immer ein gewisses Risiko birgt. Stellen Sie sicher, dass Sie dem Quellcode des Skripts vertrauen, bevor Sie es ausführen. Es wird keine Haftung für Schäden oder Fehlfunktionen übernommmen.
+### Bitte beachten Sie, dass das Ausführen von Skripten von Drittanbietern immer ein gewisses Risiko birgt. Stellen Sie sicher, dass Sie dem Quellcode des Skripts vertrauen, bevor Sie es ausführen. Es wird keine Haftung für Schäden oder Fehlfunktionen übernommmen.
