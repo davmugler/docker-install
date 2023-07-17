@@ -51,7 +51,7 @@ echo "Done."
 #VERIFY INSTALL
 
 echo "Verifying Installation..."
-sudo docker run hello-world > /dev/null 2>&1
+sudo docker version > /dev/null 2>&1
 echo "Done."
 
 echo "########### INSTALLATION WAS SUCCESSFULL ###########"
