@@ -37,7 +37,8 @@ echo "Done."
 # INSTALL DOCKER
 
 echo "Installing docker..."
-sudo apt-get update && sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin > /dev/null 2>&1
+sudo apt-get update > /dev/null 2>&1
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin > /dev/null 2>&1
 echo "Done."
 
 # INSTALL DOCKER-COMPOSE
