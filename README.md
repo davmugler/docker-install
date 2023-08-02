@@ -1,59 +1,55 @@
-# Einfache Scripts zum Installieren von Docker und dem docker-compose Plugin
+# Simple scripts for installing Docker and the docker-compose plugin
 
-## 1. Skript: install-docker_debian.sh
+## 1. Script: install-docker_debian.sh
 
-Dieses Skript ist für Debian-basierte Systeme, wie z. B. Debian oder RaspberryOS. Es installiert Docker auf dem System. Hier ist eine Anleitung zur Ausführung des Skripts:
+This script is designed for Debian-based systems such as Debian or RaspberryOS. It installs Docker on the system. Here is a guide to executing the script:
 
-Schritt 1: Öffnen Sie ein Terminal auf Ihrem Debian-basierten System.
+Step 1: Open a terminal on your Debian-based system.
 
-Schritt 2: Laden Sie das Skript herunter, indem Sie den folgenden Befehl eingeben:
+Step 2: Download the script by entering the following command:
 
-   ```shell
-   wget https://raw.githubusercontent.com/davmugler/scripts/main/install-docker_debian.sh
-   ```
+```shell
+wget https://raw.githubusercontent.com/davmugler/scripts/main/install-docker_debian.sh
+```
 
-Schritt 3: Geben Sie dem Skript Ausführungsrechte, indem Sie den folgenden Befehl eingeben:
+Step 3: Give the script executable permissions by entering the following command:
 
-   ```shell
-   chmod +x install-docker_debian.sh
-   ```
+```shell
+chmod +x install-docker_debian.sh
+```
 
-Schritt 4: Führen Sie das Skript aus, indem Sie den folgenden Befehl eingeben:
+Step 4: Execute the script by entering the following command:
 
-   ```shell
-   ./install-docker_debian.sh
-   ```
+```shell
+./install-docker_debian.sh
+```
 
-Das Skript installiert Docker und alle erforderlichen Abhängigkeiten auf Ihrem Debian-basierten System incl. dem Plugin docker-compose.
+The script installs Docker and all necessary dependencies on your Debian-based system, including the docker-compose plugin.
 
-## 2. Skript: install-docker_ubuntu.sh
+## 2. Script: install-docker_ubuntu.sh
 
-Dieses Skript ist speziell für Ubuntu-Systeme entwickelt und installiert Docker auf Ihrem Ubuntu-System. Hier ist eine Anleitung zur Ausführung des Skripts:
+This script is specifically designed for Ubuntu systems and installs Docker on your Ubuntu system. Here is a guide to executing the script:
 
-Schritt 1: Öffnen Sie ein Terminal auf Ihrem Ubuntu-System.
+Step 1: Open a terminal on your Ubuntu system.
 
-Schritt 2: Laden Sie das Skript herunter, indem Sie den folgenden Befehl eingeben:
+Step 2: Download the script by entering the following command:
 
-   ```shell
-   wget https://raw.githubusercontent.com/davmugler/scripts/main/install-docker_ubuntu.sh
-   ```
+```shell
+wget https://raw.githubusercontent.com/davmugler/scripts/main/install-docker_ubuntu.sh
+```
 
-Schritt 3: Geben Sie dem Skript Ausführungsrechte, indem Sie den folgenden Befehl eingeben:
+Step 3: Give the script executable permissions by entering the following command:
 
-   ```shell
-   chmod +x install-docker_ubuntu.sh
-   ```
+```shell
+chmod +x install-docker_ubuntu.sh
+```
 
-Schritt 4: Führen Sie das Skript aus, indem Sie den folgenden Befehl eingeben:
+Step 4: Execute the script by entering the following command:
 
-   ```shell
-   ./install-docker_ubuntu.sh
-   ```
+```shell
+./install-docker_ubuntu.sh
+```
 
-Das Skript installiert Docker und alle erforderlichen Abhängigkeiten auf Ihrem Ubuntu-System incl. dem Plugin docker-compose.
+The script installs Docker and all necessary dependencies on your Ubuntu system, including the docker-compose plugin.
 
-
-
-
-
-! Bitte beachten Sie, dass das Ausführen von Skripten von Drittanbietern immer ein gewisses Risiko birgt. Stellen Sie sicher, dass Sie dem Quellcode des Skripts vertrauen, bevor Sie es ausführen. Es wird keine Haftung für Schäden oder Fehlfunktionen übernommmen. !
+! Please note that running scripts from third-party sources always carries some risk. Make sure you trust the script's source code before executing it. No liability will be assumed for any damages or malfunctions. !
