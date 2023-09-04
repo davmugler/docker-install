@@ -9,7 +9,7 @@ Step 1: Open a terminal on your Debian-based system.
 Step 2: Download the script by entering the following command:
 
 ```shell
-wget https://raw.githubusercontent.com/davmugler/scripts/main/install-docker_debian.sh
+wget https://raw.githubusercontent.com/davmugler/docker-install/main/install-docker_debian.sh
 ```
 
 Step 3: Give the script executable permissions by entering the following command:
@@ -35,7 +35,7 @@ Step 1: Open a terminal on your Ubuntu system.
 Step 2: Download the script by entering the following command:
 
 ```shell
-wget https://raw.githubusercontent.com/davmugler/scripts/main/install-docker_ubuntu.sh
+wget https://raw.githubusercontent.com/davmugler/docker-install/main/install-docker_ubuntu.sh
 ```
 
 Step 3: Give the script executable permissions by entering the following command:
