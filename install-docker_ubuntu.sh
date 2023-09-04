@@ -51,15 +51,18 @@ echo "Done."
 #VERIFY INSTALL
 
 echo "Verifying Installation..."
-sudo docker version > /dev/null 2>&1
-echo "Done."
+if command -v docker &> /dev/null && command -v docker-compose &> /dev/null; then
+    echo "########### INSTALLATION WAS SUCCESSFULL ###########"
+    echo "#                                                  #"
+    echo "# You can now fully use Docker and Docker-compose! #"
+    echo "#                                                  #"
+    echo "# To run a Container use:                          #"
+    echo "#                                                  #"
+    echo "# docker run [your_container-name]                 #"
+    echo "#                                                  #"
+    echo "####################################################"
+else
+    echo "There was an issue with the installation. Docker and/or Docker Compose may not be correctly installed."
+fi
 
-echo "########### INSTALLATION WAS SUCCESSFULL ###########"
-echo "#                                                  #"
-echo "# You can now fully use Docker and Docker-compose! #"
-echo "#                                                  #"
-echo "# To run a Container use:                          #"
-echo "#                                                  #"
-echo "# docker run [your_container-name]                 #"
-echo "#                                                  #"
-echo "####################################################"
+echo "Done."
