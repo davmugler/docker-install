@@ -51,7 +51,7 @@ echo "Done."
 #VERIFY INSTALL
 
 echo "Verifying Installation..."
-if command -v docker &> /dev/null && command -v docker-compose &> /dev/null; then
+if sudo docker -v &> /dev/null && sudo docker compose --version &> /dev/null; then
     echo "########### INSTALLATION WAS SUCCESSFULL ###########"
     echo "#                                                  #"
     echo "# You can now fully use Docker and Docker-compose! #"
